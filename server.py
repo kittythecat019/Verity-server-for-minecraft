@@ -133,7 +133,7 @@ def ai():
     fish_payload = {
         "text": reply,
         "reference_id": fish_model_id,
-        "format": "mp3",
+        "format": "wav",
         "latency": "balanced",
         "normalize": True
     }
@@ -176,7 +176,7 @@ def ai():
         "ok": True,
         "reply": reply,
         "audio": audio_base64,
-        "format": "mp3"
+        "format": "wav"
     })
 
 
